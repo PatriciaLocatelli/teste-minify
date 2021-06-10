@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+*{
+    font-family: 'Montserrat';
+}
+
+/**** MENU ****/
+.menu{
+    color: #2B2626;
+}
+.menu h1{
+    font-size:22px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+}
+.menu .nav-item{
+    font-size:13px;
+    font-weight: 600;
+    line-height: 16px;
+    padding-right:28px;
+}
