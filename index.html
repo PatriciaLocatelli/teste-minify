@@ -13,11 +13,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <link rel="stylesheet" href="assets/css/owl.carousel.css" />
-    <link rel="stylesheet" href="assets/css/owl.theme.default.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="assets/js/owl.carousel.js"></script>
     <script src="assets/js/script.js"></script>
     <title>Teste - Minify</title>
   </head>
@@ -28,7 +34,7 @@
           <div class="col-md-5 align-self-center">
             <h1 class="fw-bold text-uppercase">Teste Front</h1>
           </div>
-          <div class="col-md-7 align-self-center text-end">
+          <div class="col-md-7 align-self-center text-end desk">
             <div class="nav align-self-center justify-content-between">
               <div class="nav-item align-self-center">Como Funciona</div>
               <div class="nav-item align-self-center">Vantagens</div>
@@ -47,6 +53,32 @@
               <div class="nav-item align-self-center">
                 <button class="btn">Lorem Ipsum</button>
               </div>
+            </div>
+          </div>
+          <div class="col-md-7 mobile">
+            <div class="topnav">
+              <div class="nav-item align-self-center">
+                <button class="btn">Lorem Ipsum</button>
+              </div>
+              <div id="menu-mobile">
+                <a href="">Como Funciona</a>
+                <a href="">Vantagens</a>
+                <a href="">Depoimentos</a>
+                <a href="">Dúvidas</a>
+                <a href="">
+                  <div class="call-phone">
+                    <img
+                      src="./assets/img/call-phone.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                    99 9999-9999
+                  </div>
+                </a>
+              </div>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -256,39 +288,39 @@
         </div>
       </div>
     </section>
-<section class="footer pt-5 pb-2">
-    <div class="container">
+    <section class="footer pt-5 pb-2">
+      <div class="container">
         <div class="row pb-3">
-            <div class="col-md-3 text-uppercase">
-                <h3>Test Front</h3>
-            </div>
-            <div class="col-md-6">
-                <h4>Lorem Ipsum sit amet</h4>
-            </div>
-            <div class="col-md-3">
-                <p class="mb-0 pb-1 text-end">Fale conosco</p>
-                <h6>99 9999-9999</h6>
-            </div>
+          <div class="col-md-3 text-uppercase">
+            <h3>Test Front</h3>
+          </div>
+          <div class="col-md-6">
+            <h4>Lorem Ipsum sit amet</h4>
+          </div>
+          <div class="col-md-3">
+            <p class="mb-0 pb-1 text-end">Fale conosco</p>
+            <h6>99 9999-9999</h6>
+          </div>
         </div>
-        <hr class="borda">
+        <hr class="borda" />
         <div class="row pt-4">
-            <div class="col-md-3">
-                <p>Teste front @ 2021 | Todos os direitos reservados</p>
+          <div class="col-md-3">
+            <p>Teste front @ 2021 | Todos os direitos reservados</p>
+          </div>
+          <div class="col-md-6">
+            <div class="icones">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-youtube"></i>
+              <i class="fab fa-linkedin-in"></i>
             </div>
-            <div class="col-md-6">
-                <div class="icones">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-youtube"></i>
-                    <i class="fab fa-linkedin-in"></i>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <p class="text-end">Política de privacidade | Termos de uso</p>
-            </div>
+          </div>
+          <div class="col-md-3">
+            <p class="text-end">Política de privacidade | Termos de uso</p>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
   </body>

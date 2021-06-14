@@ -245,6 +245,29 @@
   text-align: center;
   color: #2b2626;
 }
+
+.owl-dots {
+  text-align: center;
+  padding-top: 40px;
+}
+.owl-dots button.owl-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #da2828;
+  opacity: 0.56;
+  border-radius: 30px;
+  margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+  background-color: #da2828;
+  opacity: 1;
+}
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+/**** FOOOTER ****/
 .footer {
   background: #2b2626;
 }
@@ -279,15 +302,105 @@
   text-align: right;
   color: #ffffff;
 }
-.borda{
-    border: 1px solid #444444;
+.borda {
+  border: 1px solid #444444;
 }
-.icones{
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 18px;
-text-align: center;
-letter-spacing: 1.41em;
-color: #C4C4C4;
+.icones {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1.41em;
+  color: #c4c4c4;
+}
+@media (max-width: 767px) {
+  /*** MENU ***/
+  .menu h1 {
+    text-align: center !important;
+  }
+  .topnav {
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+  }
+  .topnav #menu-mobile {
+    display: none;
+  }
+  .topnav a {
+    color: #2b2626;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav a.icon {
+    background: #da2828;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav a:hover {
+    background-color: #da2828;
+    color: white;
+    
+  }
+
+  .active {
+    background-color: #FFF;
+    color: #da2828;
+  }
+  /*** PRIMEIRA SEÇÃO ***/
+  h1 {
+    font-size: 28px !important;
+    line-height: 28px !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  h6 {
+    font-size: 14px !important;
+  }
+  .formulario {
+    margin-top: 3rem;
+  }
+  p {
+    font-size: 13px !important;
+  }
+  span {
+    font-size: 11px !important;
+  }
+  /*** SEGUNDA SEÇÃO ****/
+  .segunda-secao li {
+    font-size: 13px;
+  }
+  .segunda-secao .col-md-7 {
+    padding-top: 3rem;
+  }
+  /*** TERCEIRA SEÇÃO ***/
+  .terceira-secao .card {
+    margin-left: 0;
+  }
+  /*** FOOTER ****/
+  .footer .col-md-3,
+  .footer p,
+  .footer h6 {
+    text-align: center !important;
+  }
+  .footer .col-md-6 {
+    padding: 1rem 0rem;
+  }
+  .desk {
+    display: none;
+  }
+  .mobile{
+    padding-top:1rem;
+  }
+}
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
 }
