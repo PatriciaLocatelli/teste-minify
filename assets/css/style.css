@@ -1,20 +1,293 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
-*{
-    font-family: 'Montserrat';
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+* {
+  font-family: "Montserrat";
 }
 
 /**** MENU ****/
-.menu{
-    color: #2B2626;
+.menu {
+  color: #2b2626;
+  border-bottom: 1px solid #ececec;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.16);
 }
-.menu h1{
-    font-size:22px;
-    line-height: 27px;
-    letter-spacing: 0.05em;
+.menu h1 {
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
 }
-.menu .nav-item{
-    font-size:13px;
-    font-weight: 600;
-    line-height: 16px;
-    padding-right:28px;
+.menu .nav-item {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.call-phone {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 20px;
+}
+.menu .btn {
+  background-color: #da2828;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+
+/**** PRIMEIRA SEÇÃO ****/
+.primeira-secao {
+  background: url(/assets/img/BG-Banner.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+.primeira-secao h1 {
+  color: #2b2626;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+}
+.primeira-secao h3 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: #2b2626;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+}
+.primeira-secao h6 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #da2828;
+}
+.formulario {
+  background: #ffffff;
+  border: 1px solid #ececec;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  padding: 3rem 2rem 3rem 2rem;
+}
+.formulario p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2b2626;
+}
+.form-control::placeholder,
+.select::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+}
+
+.formulario button {
+  background: #da2828;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  border-bottom: 1px solid #2b2626;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.16);
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.formulario input,
+.formulario textarea,
+.formulario select {
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 0.8rem;
+}
+.formulario span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  color: #898989;
+}
+
+/**** SEGUNDA SEÇÃO ****/
+.segunda-secao {
+  background-color: #e5e5e5;
+}
+.segunda-secao h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px;
+  color: #2b2626;
+  margin-bottom: 0;
+}
+.segunda-secao h5 {
+  margin-bottom: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444444;
+}
+.segunda-secao li {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #2b2626;
+}
+.segunda-secao li i {
+  color: #da2828;
+  padding-right: 19px;
+}
+.segunda-secao button {
+  margin-top: 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  background: #da2828;
+  color: #ffffff;
+  border-bottom: 1px solid #2b2626;
+  box-sizing: border-box;
+  padding: 14px 47px 14px 47px;
+  box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.16);
+}
+
+/*** TERCEIRA SEÇÃO ***/
+.terceira-secao {
+  background: url(/assets/img/BG-Illustration.png), #e5e5e5;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+}
+.terceira-secao .titulo {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #da2828;
+}
+.terceira-secao h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #2b2626;
+}
+.terceira-secao h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #444444;
+}
+.terceira-secao .card {
+  box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  padding: 1rem 0.7rem;
+  margin-left: 29px;
+}
+.conteudo-card {
+  padding-top: 32px;
+  padding-bottom: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #2b2626;
+}
+.quotes {
+  width: 15% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pessoas {
+  width: 85px !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+.nome-pessoa {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #2b2626;
+}
+.carro {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #2b2626;
+}
+.footer {
+  background: #2b2626;
+}
+.footer h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+.footer p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #898989;
+}
+.footer h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #ffffff;
+}
+.borda{
+    border: 1px solid #444444;
+}
+.icones{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 1.41em;
+color: #C4C4C4;
 }
